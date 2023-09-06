@@ -1,0 +1,39 @@
+.f-container {
+  justify-content: space-around;
+  background-color: var(--black);
+}
+
+.f-left {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.Text {
+  color: #ff922d;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.f-text {
+  color: white !important;
+}
+
+.f-menu {
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+@media (max-width: 1046px) {
+  .f-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .f-container > div {
+    align-items: center !important;
+    text-align: center;
+    font-size: 0.7rem;
+  }
+}
